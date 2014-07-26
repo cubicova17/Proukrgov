@@ -1,0 +1,398 @@
+/* START RESET STYLE */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+html {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+body {
+    height:100%;
+    margin:0;
+    font-size:17px;
+    color:#333;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul, ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.clearFix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* END RESET STYLE */
+h1, h2, h3, h4, h5{
+    font-family: 'PT Sans', sans-serif;
+}
+h1, h2{
+    font-weight: 700;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+p{
+    font-family: 'PT Serif', serif;
+}
+.fs14{
+    font-size: 14px;
+}
+.fs18{
+    font-size: 18px;
+    line-height: 26px;
+}
+.fs24{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+.link{
+    color: #0092c5;
+    text-decoration: none;
+}
+.link span{
+    border-bottom: 1px solid #cce9f3;
+}
+.line{
+    height: 5px;
+    background: url("../img/line.png") repeat-x center 0px;
+}
+.listBl{
+    font-family: 'PT Serif', sans-serif;
+    font-size: 14px;
+    float: left;
+    width: 270px;
+    margin-top: 10px;
+}
+.listBl > li{
+    line-height: 18px;
+    margin-bottom: 14px;
+}
+.mr55{
+    margin-right: 55px;
+}
+
+.pageWidth{
+    width: 930px;
+    margin: 0px auto;
+}
+nav{
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0px;
+}
+nav > a{
+    color: #0092c5;
+    text-decoration: none;
+}
+nav > a.current{
+    color: #999;
+}
+nav > a.current span{
+    border-bottom: none;
+    cursor: default;
+}
+nav > a span{
+    border-bottom: 1px solid #cce9f3; 
+}
+nav > i{
+    color: #ccc;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    margin: 0px 10px;
+}
+#logo{
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+.text18{
+    font-size: 18px;
+}
+.center{
+    text-align: center;
+}
+.indexHead{
+    margin-bottom: 18px;
+}
+#hiw{
+    margin-top: 35px;
+}
+#hiw > h2{
+    margin-bottom: 30px;
+}
+.hiwBl > li{
+    position: relative;
+    display: block;
+    float: left;
+    width: 370px;
+    padding-left: 80px;
+}
+.hiwBl > li:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+}
+.hiwBl > li.ic1:before{
+    background-position: 0px 0px;
+}
+.hiwBl > li.ic2:before{
+    background-position: 0px -77px;
+}
+.hiwBl > li:first-child{
+    margin-right: 30px;
+}
+.hiwBl p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.submitRequest{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #0092c5;
+    line-height: 66px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 290px;
+    height: 66px;
+    margin: 35px 0px 28px 0px;
+    border: 3px solid #0092c5;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+a.submitRequest{
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+	/* ...and now for the proper property */
+	transition:color .2s ease-out, background .2s ease-in;
+}
+
+a.submitRequest:hover{
+	color: white !important;
+	background-color: #0092c5;
+}
+
+.lineCount{
+    text-align: center;
+    margin: 130px 0px;
+}
+.numbers{
+    position: relative;
+    display: inline-block;
+    margin-top: -35px;
+    padding: 0px 28px;
+    background-color: #fff;
+}
+.numbers:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -45px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    background: url('../img/sprite.png') no-repeat 0px -156px;
+}
+.numbers i{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 700;
+}
+.sendResume{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+}
+.lineFooter{
+    margin-top: 60px;
+}
+footer{
+    padding: 35px 0px;
+}
+.fTextGray{
+    color: #999;
+    font-size: 12px;
+    float: left;
+    margin-right: 40px;
+}
+.sn{
+    float: left;
+    margin: -3px 30px 0px -30px;
+}
+.icFB{
+    position: relative;
+    top: -6px;
+    float: right;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 12px;
+    padding-left: 30px;
+    background: url("../img/ic_fb.png") no-repeat 0px 0px;
+}
+.headLetter{
+    font-size: 30px;
+    margin: 75px 0px 28px 0px;
+}
+.wp600{
+    width: 600px;
+    margin: 35px auto;
+}
+.wp600 p{
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.textList{
+    margin-bottom: 28px;
+}
+.textList li{
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+/*    font-style: italic;*/
+    line-height: 26px;
+    position: relative;
+    padding-left: 45px;
+}
+.textList li span{
+    position: absolute;
+    left: 20px;
+    top: -2px;
+}
+.textList li a  span{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.dblTbl{
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.dblTbl th{
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+.dblTbl td{
+    line-height: 26px;
+}
+.dblTbl td:first-child{
+    text-align: right;
+    width: 210px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dblTbl td:last-child{
+    color: #adadad;
+    font-style: italic;
+}
+
+a:hover span{
+	color: #d72f36;
+    border-bottom: 1px solid #f7d5d7;
+}
